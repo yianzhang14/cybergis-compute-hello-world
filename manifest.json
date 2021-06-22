@@ -1,0 +1,6 @@
+{
+    "name": "hello world",
+    "setup_stage": "python $JOB_ROOT/setup.py",
+    "execution_stage": "python $JOB_ROOT/main.py",
+    "cleanup_stage": "python $JOB_ROOT/cleanup.py"
+}
