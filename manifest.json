@@ -1,7 +1,7 @@
 {
     "name": "hello world",
     "container": "python",
-    "pre_processing_stage": "python {{JOB_EXECUTABLE_PATH}}/setup.py",
-    "execution_stage": "python {{JOB_EXECUTABLE_PATH}}/main.py",
-    "post_processing_stage": "python {{JOB_EXECUTABLE_PATH}}/cleanup.py"
+    "pre_processing_stage": "python setup.py",
+    "execution_stage": "python main.py",
+    "post_processing_stage": "python cleanup.py"
 }
