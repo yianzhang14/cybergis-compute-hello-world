@@ -2,6 +2,6 @@ import json
 
 print('running main...')
 
-app = json.load(open('./app.json',))
+job = json.load(open('./job.json',))
 
-print(app)
+print(job)
