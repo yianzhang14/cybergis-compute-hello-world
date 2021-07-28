@@ -9,4 +9,7 @@ job = json.load(open('./job.json',))
 print('SLURM_NODEID\n')
 print(os.environ['SLURM_NODEID'])
 
+print('SLURM_PROCID\n')
+print(os.environ['SLURM_PROCID'])
+
 print(job)
