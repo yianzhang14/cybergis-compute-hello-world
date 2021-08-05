@@ -12,4 +12,10 @@ print(os.environ['SLURM_NODEID'])
 print('SLURM_PROCID\n')
 print(os.environ['SLURM_PROCID'])
 
+print('job_id')
+print(os.environ['job_id'])
+
+print('param_a')
+print(os.environ['param_a'])
+
 print(job)
