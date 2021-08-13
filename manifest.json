@@ -2,7 +2,7 @@
     "name": "hello world",
     "container": "python",
     "pre_processing_stage": "python setup.py",
-    "execution_stage": "python main.py",
+    "execution_stage": "bash main.sh",
     "post_processing_stage": "python cleanup.py",
     "slurm_ceiling": {
         "walltime": "10:00"
