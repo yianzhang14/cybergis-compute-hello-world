@@ -1,5 +1,5 @@
 #!/bin/bash
 
-mkdir $result_folder/demo_quick_start$SLURM_NODEID
-chmod 755 $result_folder/demo_quick_start_$SLURM_NODEID
+mkdir $result_folder/demo_quick_start_$SLURM_PROCID
+chmod 755 $result_folder/demo_quick_start_$SLURM_PROCID
 python main.py
