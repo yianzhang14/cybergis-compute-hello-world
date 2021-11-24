@@ -19,6 +19,7 @@
             "step": 1
         }
     },
+    "require_upload_data": true,
     "param_rules": {
         "input_a": {
             "type": "integer",
