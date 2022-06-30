@@ -23,7 +23,7 @@
     "param_rules": {
         "input_a": {
             "type": "integer",
-            "require": true,
+            "require": false,
             "max": 100,
             "min": 0,
             "default_value": 50,
