@@ -19,11 +19,11 @@
             "step": 1
         }
     },
-    "require_upload_data": true,
+    "require_upload_data": false,
     "param_rules": {
         "input_a": {
             "type": "integer",
-            "require": false,
+            "require": true,
             "max": 100,
             "min": 0,
             "default_value": 50,
