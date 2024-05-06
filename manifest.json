@@ -37,5 +37,5 @@
     },
     "default_result_folder_downloadable_path": "/demo_quick_start_0",
     "supported_hpc": ["aces_community", "anvil_community", "expanse_community", "keeling_community"],
-    "default_hpc": "keeling_community"
+    "default_hpc": "anvil_community"
 }
