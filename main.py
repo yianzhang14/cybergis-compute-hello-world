@@ -3,6 +3,8 @@ import os
 
 print('running main...\n')
 
+print("new push")
+
 print('./job.json\n')
 job = json.load(open('./job.json',))
 
